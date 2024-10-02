@@ -1,3 +1,5 @@
+'use client';
+
 import React from 'react';
 import WalletButtons from './WalletButtons';
 import { useRouter } from 'next/navigation';

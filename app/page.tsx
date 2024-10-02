@@ -36,7 +36,7 @@ export default function Home() {
               description="Launch your own Solana token with ease. Customize and deploy in minutes."
               buttonText="Get Started"
               icon="🚀"
-              href="/create-token"
+              href="/createToken"
             />
           </motion.div>
           <motion.div variants={cardVariants}>
