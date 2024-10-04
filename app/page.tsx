@@ -2,7 +2,7 @@
 import Feature from '@/components/Feature';
 import Footer from '@/components/Footer';
 import Header from '@/components/Header';
-import TokenCard from '@/components/TokenCard';
+import HomeTokenCard from '@/components/HomeTokenCard';
 import { cardVariants, containerVariants } from '@/lib/styles';
 import { motion } from 'framer-motion';
 
@@ -31,7 +31,7 @@ export default function Home() {
           variants={containerVariants}
         >
           <motion.div variants={cardVariants}>
-            <TokenCard
+            <HomeTokenCard
               title="Create Token"
               description="Launch your own Solana token with ease. Customize and deploy in minutes."
               buttonText="Get Started"
@@ -40,7 +40,7 @@ export default function Home() {
             />
           </motion.div>
           <motion.div variants={cardVariants}>
-            <TokenCard
+            <HomeTokenCard
               title="My Tokens"
               description="Manage and monitor your launched tokens. Track performance and make updates."
               buttonText="View My Tokens"
@@ -49,7 +49,7 @@ export default function Home() {
             />
           </motion.div>
           <motion.div variants={cardVariants}>
-            <TokenCard
+            <HomeTokenCard
               title="Token List"
               description="Explore a diverse range of Solana tokens. Discover new projects and opportunities."
               buttonText="View Tokens"
